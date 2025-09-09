@@ -1,18 +1,38 @@
-## Getting Started
+# Calculadora Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Projeto simples de uma calculadora feita em Java para console.  
+Permite realizar operações básicas: soma, subtração, multiplicação e divisão.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Entrada de dois números pelo usuário
+- Escolha da operação matemática (+, -, *, /)
+- Exibição do resultado no console
+- Tratamento de erro para divisão por zero
+- Mensagem para operação inválida
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como usar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Clone ou baixe este repositório.
+2. Abra no seu IDE preferido (ex: VS Code, IntelliJ, Eclipse).
+3. Compile e execute o arquivo principal (`Calculadora.java`).
+4. Siga as instruções na tela para inserir números e operação.
 
-## Dependency Management
+## Exemplo de uso
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Digite o primeiro número: 10
+Digite o segundo número: 5
+Digite a operação (+, -, *, /): /
+Resultado: 2.0
+
+
+## Requisitos
+
+- Java JDK instalado (versão 8 ou superior)
+- IDE ou editor de texto para Java
+
+## Autor
+
+Douglas
